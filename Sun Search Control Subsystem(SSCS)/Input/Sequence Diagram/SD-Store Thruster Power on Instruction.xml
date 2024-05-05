@@ -1,0 +1,3 @@
+Store Thruster Power on Instruction:
+<STPonI, TPI, Thruster power on instruction storage instruction>[event]
+<TPI, ——, Thruster power on instruction>[event]

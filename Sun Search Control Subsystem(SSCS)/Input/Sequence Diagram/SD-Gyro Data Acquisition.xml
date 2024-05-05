@@ -1,0 +1,11 @@
+Gyro Data Acquisition:
+<G, GDA, Pulse count>[value]
+<G, GDA, Gyro power state>[state]
+<GDA, G, Pulse count acquisition instruction>[event]
+<GDA, G, Gyro power state perception instruction>[event]
+<GD, ——, Angular velocity analog>[value]
+<GD, ——, Gyro power state>[state]
+<GDA, GD, Angular velocity analog storage instruction>[event]
+<GDA, GD, Gyro power state storage instruction>[event]
+<GDA, GDACC, Pulse count>[value]
+<GDACC, GDA, Angular velocity analog>[value]

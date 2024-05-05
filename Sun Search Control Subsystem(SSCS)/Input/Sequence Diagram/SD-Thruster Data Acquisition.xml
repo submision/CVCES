@@ -1,0 +1,5 @@
+Thruster Data Acquisition:
+<TCT, TDA, Thruster power state>[state]
+<TDA, TCT, Thruster power state perception instruction>[event]
+<TD, ——, Thruster power state>[state]
+<TDA, TD, Thruster power state storage instruction>[event]

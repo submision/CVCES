@@ -1,0 +1,7 @@
+Sun Sensor Control Output:
+<SS, ——, Sun sensor power on state>[state]
+<SSCO, SS, Sun sensor power on pulse>[event]
+<SSI, SSCO, Sun sensor power on instruction>[event]
+<SSCO, SSI, Sun sensor power on instruction load instruction>[event]
+<SSCO, SSCOCC, Sun sensor power on instruction>[event]
+<SSCOCC, SSCO, Sun sensor power on pulse>[event]

@@ -1,0 +1,13 @@
+Telemetry Processing:
+<DMC, ——, Telemetry data>[value]
+<MR, TP, Current mode>[value]
+<ADR, TP, Triaxial attitude angle>[value]              
+<ADR, TP, Triaxial angular velocity>[value]
+<TP, MR, Current mode load instruction>[event]
+<TP, ADR, Triaxial attitude angle load instruction>[event]
+<TP, ADR, Triaxial angular velocity load instruction>[event]
+<TP, DMC, Telemetry data transmission instruction>[event]
+<TP, TPCC, Current mode>[value]                          
+<TP, TPCC, Triaxial attitude angle>[value]
+<TP, TPCC, Triaxial angular velocity>[value]         
+<TPCC, TP, Telemetry data>[value]

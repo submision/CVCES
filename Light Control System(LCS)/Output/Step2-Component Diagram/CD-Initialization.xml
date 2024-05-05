@@ -1,0 +1,4 @@
+Controller as Init
+Entity as LU, AC
+[Init] -> interface1 - [LU]
+[Init] -> interface2 - [AC]

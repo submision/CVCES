@@ -1,0 +1,6 @@
+Telecontrol Processing:
+<DMC, TIP, Telecontrol instruction>[event]
+<MR, ——, Next cycle mode>[value]
+<TIP, MR, Next cycle mode storage instruction>[event]
+<TIP, TIPCC, Telecontrol instruction>[event]
+<TIPCC, TIP, Next cycle mode>[value]

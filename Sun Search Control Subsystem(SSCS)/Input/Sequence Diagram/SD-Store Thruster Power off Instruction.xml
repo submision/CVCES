@@ -1,0 +1,3 @@
+Store Thruster Power off Instruction:
+<STPonI, TPI, Thruster power off instruction storage instruction>[event]
+<TPI, ——, Thruster power off instruction>[event]

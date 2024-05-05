@@ -1,0 +1,10 @@
+Controller as ACCO, Init, TC
+Entity as AC, LU, TS, NE
+Datastorage as ACC
+[ACCO] -> interface1 - [ACC]
+[ACCO] -> interface2 - [AC]
+[Init] -> interface3 - [LU]
+[Init] -> interface4 - [AC]
+[TC] -> interface5 - [TS]
+[TS] -> interface6 - [NE]
+[TC] -> interface7 - [ACC]

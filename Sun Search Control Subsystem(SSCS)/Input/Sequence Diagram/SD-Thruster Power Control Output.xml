@@ -1,0 +1,7 @@
+Thruster Power Control Output:
+<TCT, ——, Thruster power on state>[state]
+<TPCO, TCT, Thruster power on pulse>[event]
+<TPI, TPCO, Thruster power on instruction>[event]
+<TPCO, TPI, Thruster power on instruction load instruction>[event]
+<TPCO, TPCOCC, Thruster power on instruction>[event]
+<TPCOCC, TPCO, Thruster power on pulse>[event]

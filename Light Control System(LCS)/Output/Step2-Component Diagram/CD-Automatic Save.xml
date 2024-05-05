@@ -1,0 +1,6 @@
+Controller as AS
+Entity as LS, NE
+Datastorage as LC
+[AS] -> interface1 - [LS]
+[LS] -> interface2 - [NE]
+[AS] -> interface3 - [LC]

@@ -1,0 +1,3 @@
+32ms Interrupt Timer Initialization:
+<32ITI, 32IT, 32ms interrupt timer start instruction>[event]     
+<32IT, ——, 32ms interrupt timer start state>[state]

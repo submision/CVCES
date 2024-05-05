@@ -1,0 +1,13 @@
+Controller as LUCO, Init, AS, CS
+Entity as LU, AC, PG, OP, NE
+Datastorage as LC
+[LUCO] -> interface1 - [LC]
+[LUCO] -> interface2 - [LU]
+[Init] -> interface3 - [LU]
+[Init] -> interface4 - [AC]
+[CS] -> interface5 - [PG]
+[PG] -> interface6 - [OP]
+[CS] -> interface7 - [LC]
+[AS] -> interface8 - [LS]
+[LS] -> interface9 - [NE]
+[AS] -> interface10 - [LC]

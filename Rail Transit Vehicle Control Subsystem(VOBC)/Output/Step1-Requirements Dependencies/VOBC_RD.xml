@@ -1,0 +1,5 @@
+data dependencies:
+OpenDoors: OpenDoors
+CloseDoors: CloseDoors
+TDControlOutput: TDControlOutput -> OpenDoors; TDControlOutput -> CloseDoors
+SDControlOutput: SDControlOutput -> OpenDoors; SDControlOutput -> CloseDoors

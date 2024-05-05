@@ -1,0 +1,6 @@
+Controller as CloseDoors
+Entity as CL, Driver
+Datastorage as StationData
+[Driver] -> interface1 - [CloseDoors]
+[CL] -> interface2 - [CloseDoors]
+[CloseDoors] -> interface3 - [StationData]

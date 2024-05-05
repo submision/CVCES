@@ -1,0 +1,8 @@
+Thruster Triaxial Control:
+<32IT, TTC, Interrupt signal>[event]
+<TDCR, TTC, Thruster combination logic>[value]
+<TTI, ——, Triaxial control instruction>[event]
+<TTC, TDCR, Thruster combination logic load instruction>[event]
+<TTC, TTI, Triaxial control instruction storage instruction>[event]
+<TTC, TTCCC, Thruster combination logic>[value]
+<TTCCC, TTC, Triaxial control instruction>[event]

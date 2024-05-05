@@ -1,0 +1,7 @@
+Gyro Control Output:
+<G, ——, Gyro power on state>[state]
+<GCO, G, Gyro power on pulse>[event]
+<GI, GCO, Gyro power on instruction>[event]
+<GCO, GI, Gyro power on instruction load instruction>[event]
+<GCO, GCOCC, Gyro power on instruction>[event]
+<GCOCC, GCO, Gyro power on pulse>[event]
