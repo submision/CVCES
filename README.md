@@ -8,13 +8,22 @@ Identifying sub-requirements dependencies Extracting these dependencies requires
 of a requirements dependency diagram.
 
 <h2>Step 2</h2>
-Generating architectures of verification subsystems The purpose of this step is to clearly define the constituents of the verification subsystems based on the requirements dependencies. Considering the architecture of embedded systems, these components include software components that are interdependent due to their dependencies, device components required by these
+Generating architectures of verification subsystems. The purpose of this step is to clearly define the constituents of the verification subsystems based on the requirements dependencies. Considering the architecture of embedded systems, these components include software components that are interdependent due to their dependencies, device components required by these
 software elements, data storage components, and connectors that encapsulate the information of interactions among various components.
 
 <h2>Step 3</h2>
 Assembling and verifying executable verification subsystems This step is to generate a set of executable verification subsystems in terms of NTA, and verify them respectively. The verification subsystems, assembled from the precise elements of NTA, can undergo formal verification for distinct properties via the UPPAAL platform. The results of each verification
 subsystem are synthesized to obtain the final verification outcome.
 
+<h2>Description of experimental data</h2>
 There are two folders, input and output, under each case folder. The input folder contains the Sequence Diagram folder and the External Solid Model Library folder. The output folder contains the requirement dependencies identified as a result of the output of step 1, the subsystem architecture represented as a component diagram as a result of the output of step 2, and the executable subsystem model assembled as a result of the output of step 3.
+
+- Input
+    - Sequence Diagram
+    - External Entity Model Library
+- Output
+    - Step1-Output-Requirements Dependencies
+    - Step2-Output-Architectures of Verification Subsystems
+    - Step3-Output-Executable Verification Subsystems
 
 
